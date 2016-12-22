@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TEACHES" directorySegmentName="seg_0" id="953346F2-21CC-3427-E718-8E1932F5586D">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<schemaObject>EAE233BC-DB46-C859-117B-DA6908A87657</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A13BDE2B-2D71-28FC-5719-7305541985DB</segment>
+<tableSpace>5CD08D59-1ECD-52C9-8C86-D9EA680B5427</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MIN_GRADE" id="75EA3369-C4F0-3EB4-F7D9-F4D5E57CE47E">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SECTIONNO" id="B4A74C55-CD38-6A5C-5DBF-E584EDA283C6">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LECTURERNO" id="E1A1C445-07FA-4142-E553-4A299607109A">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TEACHES_SECTION_FK" id="1C487302-0E21-7EBF-AD8E-5F3344C85FC6">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:42 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TEACHES_FACULTY_PERSON_FK" id="8F71C823-5085-EC0D-EF36-A7571542B6EA">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:42 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="780EAD35-2F01-09DD-02BB-CCD4B60BB52E" schemaObject="9C34062A-1B63-8C45-FCA6-23A996B032CA" name="LINPOST">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>LINPOST</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="POSTNO" id="65717C7B-2D2C-0371-3B85-D145DD126AB2">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>LINPOST</sourceObjSchema>
+<sourceObjName>POSTNO</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENT" id="08F2B258-D0EF-F683-AC97-3E4210C28294">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>LINPOST</sourceObjSchema>
+<sourceObjName>CONTENT</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LI_ID" id="7C0F5DAE-A7E1-5E15-93A6-8B789B6D5083">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>LINPOST</sourceObjSchema>
+<sourceObjName>LI_ID</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE76C3C6-0589-F0CC-CB0C-7BA649764539" referredColumn="77522E01-72F3-FF85-76CC-1F0EDE33C611"/>
+</associations>
+</Column>
+<Column name="GROUPPAGENO" id="973CE04E-5B50-66E3-43D4-158D7E2779A7">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>LINPOST</sourceObjSchema>
+<sourceObjName>GROUPPAGENO</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F198DCD0-1E81-06BC-FCFA-48A34BF0DCDC" referredColumn="C2BF70D8-C579-38D5-C8BE-7600ECB4E9D5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B7A052E-1DA3-4958-6E2B-85174F8AE4B3" name="LINPOST_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>LINPOST_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65717C7B-2D2C-0371-3B85-D145DD126AB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E7BA341-9731-B6DA-A885-172E681F5D78" schemaObject="9C34062A-1B63-8C45-FCA6-23A996B032CA" name="LINPOST_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>LINPOST_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65717C7B-2D2C-0371-3B85-D145DD126AB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6B5D402-2873-9DE7-EFD8-1E38A1193D60" name="LINPOST_LINPAGE_FK">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="973CE04E-5B50-66E3-43D4-158D7E2779A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A82FC2A-F52B-C0D9-AB65-56D4C0E1A1AD" name="LINPOST_LINUSER_FK">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C0F5DAE-A7E1-5E15-93A6-8B789B6D5083"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

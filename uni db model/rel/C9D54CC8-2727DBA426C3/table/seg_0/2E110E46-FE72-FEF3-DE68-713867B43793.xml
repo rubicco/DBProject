@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E110E46-FE72-FEF3-DE68-713867B43793" schemaObject="EAE233BC-DB46-C859-117B-DA6908A87657" name="FBPOST">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>FBPOST</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="POST_NO" id="DBD5B651-DEBE-18BF-A266-829036B00D84">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>FBPOST</sourceObjSchema>
+<sourceObjName>POST_NO</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FB_ID" id="440180C6-1E09-9950-5660-2E010C1F1FCF">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>FBPOST</sourceObjSchema>
+<sourceObjName>FB_ID</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5663D2B0-B048-AC00-1EF3-D8C77D3363E6" referredColumn="CF4AAA3E-E068-D3D5-7098-A999D83EE1AA"/>
+</associations>
+</Column>
+<Column name="PAGE_NO" id="5D274BA8-30E8-77B0-FED1-E8A0D8BC4D4C">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>FBPOST</sourceObjSchema>
+<sourceObjName>PAGE_NO</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89E4CE22-6688-E4DC-1414-CF785717D72D" referredColumn="B36F3439-4C61-1B74-2720-25AAF2553A86"/>
+</associations>
+</Column>
+<Column name="POST_CONTENT" id="2CCD72B0-59AA-5FE0-D9D9-22B4B5A2CFC6">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>FBPOST</sourceObjSchema>
+<sourceObjName>POST_CONTENT</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1DDCB7C4-C62F-DE94-C527-E0060ACF18E3" name="FBPOST_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>FBPOST_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:42 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBD5B651-DEBE-18BF-A266-829036B00D84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F15296EE-03FA-0837-F073-69AB5CBEACCE" schemaObject="EAE233BC-DB46-C859-117B-DA6908A87657" name="FBPOST_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>FBPOST_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:42 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBD5B651-DEBE-18BF-A266-829036B00D84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1BBEB19-B3E5-9F8C-43AD-C075309068B3" name="FBPOST_FBPAGE_FK">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:42 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D274BA8-30E8-77B0-FED1-E8A0D8BC4D4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6553B2B6-C74C-E978-FF7C-8A6FDD485A71" name="FBPOST_FBUSER_FK">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:42 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="440180C6-1E09-9950-5660-2E010C1F1FCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

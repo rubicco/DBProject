@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="GRAD_STUDENT" directorySegmentName="seg_0" id="A162A6F7-AE2C-E7E4-F903-9BEB96F517D6">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<schemaObject>DA0683A9-E3FE-1670-33B0-8511D4E9EF34</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>06027CE5-4FF9-0C47-E2D3-6F2890CD8A61</segment>
+<tableSpace>403EDD4C-7BE1-482A-6E1F-D18C983253AF</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="YEAR" id="289E83C8-E238-D261-B4C0-48EC8566AEAB">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GSNO" id="3257B53F-0EE7-7FBE-68D7-EBF331658E9B">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TCNUMBER" id="6910C9AF-BF8A-2AD2-2337-567DBD4AB7B6">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPTNAME" id="8C410044-7331-104B-9261-68E983C42B0C">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEGREE" id="93AA32EC-DB98-5AFA-ABDE-FC7C0E2F3D8C">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="GRAD_STUDENT_PK" id="AB38348D-B650-201E-2104-BC745C8461E3">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<schemaObject>DA0683A9-E3FE-1670-33B0-8511D4E9EF34</schemaObject>
+<segment>2B9783FB-298B-94D0-0194-E6984A975A22</segment>
+<tableSpace>403EDD4C-7BE1-482A-6E1F-D18C983253AF</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="GRAD_STUDENT_PERSON_FK" id="1533E836-766C-0303-5016-7A2E59B05E12">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GRAD_STUDENT_PK" id="904F2769-2D34-CE29-AAFB-6C3C78DBD172">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<segment>2B9783FB-298B-94D0-0194-E6984A975A22</segment>
+<tableSpace>403EDD4C-7BE1-482A-6E1F-D18C983253AF</tableSpace>
+<existingIndex>AB38348D-B650-201E-2104-BC745C8461E3</existingIndex>
+<indexSegment>2B9783FB-298B-94D0-0194-E6984A975A22</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

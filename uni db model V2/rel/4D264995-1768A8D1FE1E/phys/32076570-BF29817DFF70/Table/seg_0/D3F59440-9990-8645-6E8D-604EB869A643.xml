@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="LINUSER" directorySegmentName="seg_0" id="D3F59440-9990-8645-6E8D-604EB869A643">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<schemaObject>9C34062A-1B63-8C45-FCA6-23A996B032CA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A2D43590-0EF5-EC16-75A2-9AF87441B2E5</segment>
+<tableSpace>738C256D-8AAC-3C7E-9EF3-1A0216CCB763</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EMAIL" id="3B3834A8-D616-E022-B42D-F26CD2722D0D">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXP" id="6534274F-A96A-9AA2-06C5-03F187A4A6FB">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LI_ID" id="77522E01-72F3-FF85-76CC-1F0EDE33C611">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUMMARY" id="797D426B-1FEC-76E3-F98C-C3F48E6C3071">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TYPE" id="D90AC412-F456-14EE-402C-61FC9EB311EA">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LINUSER_PK" id="44C9E6BB-D22A-2D5F-28BF-F0EE7CE21A2E">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<schemaObject>9C34062A-1B63-8C45-FCA6-23A996B032CA</schemaObject>
+<segment>A4F3FB13-6739-7488-9457-2AA7C98E1321</segment>
+<tableSpace>738C256D-8AAC-3C7E-9EF3-1A0216CCB763</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="LINUSER_PERSON_FK" id="C0A0997F-5EA8-4A10-AEB5-3E7DB11BBD88">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LINUSER_PK" id="B940A4FA-BE7D-9626-18B7-FCA916B66B57">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<segment>A4F3FB13-6739-7488-9457-2AA7C98E1321</segment>
+<tableSpace>738C256D-8AAC-3C7E-9EF3-1A0216CCB763</tableSpace>
+<existingIndex>44C9E6BB-D22A-2D5F-28BF-F0EE7CE21A2E</existingIndex>
+<indexSegment>A4F3FB13-6739-7488-9457-2AA7C98E1321</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

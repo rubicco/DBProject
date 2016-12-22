@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94663EA8-68CA-A841-4CB8-59A2FA174391" schemaObject="EAE233BC-DB46-C859-117B-DA6908A87657" name="FACULTY_PERSON">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>FACULTY_PERSON</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LECTURERNO" id="18120FF5-F0C8-CF48-C5A9-E575445CCDC2">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>FACULTY_PERSON</sourceObjSchema>
+<sourceObjName>LECTURERNO</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE" id="69938A04-25D7-F3EF-A340-32522A80550F">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>FACULTY_PERSON</sourceObjSchema>
+<sourceObjName>TITLE</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TCNUMBER" id="23FC9B63-ED20-D40F-22B9-A55DA202BB57">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>FACULTY_PERSON</sourceObjSchema>
+<sourceObjName>TCNUMBER</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75926FCA-D148-9578-946B-A7650D714AA3" referredColumn="42874FC1-1EDF-246C-76E3-103DAB94C31C"/>
+</associations>
+</Column>
+<Column name="DEPTNO" id="B2A3D79D-80AA-F8E7-EE68-675CE781F3EB">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>FACULTY_PERSON</sourceObjSchema>
+<sourceObjName>DEPTNO</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3398ED79-0D73-4DEC-0202-4E1110F1402D" referredColumn="817B7329-7BC7-771E-4695-E88FB66AF6C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7633BD88-A0D6-F1B6-DF1F-05E5DDB94D09" name="FACULTY_PERSON_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>FACULTY_PERSON_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:42 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18120FF5-F0C8-CF48-C5A9-E575445CCDC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A2BB5FE-5FFB-6EEC-06F2-A864C714D1FE" schemaObject="EAE233BC-DB46-C859-117B-DA6908A87657" name="FACULTY_PERSON_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>FACULTY_PERSON_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:42 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18120FF5-F0C8-CF48-C5A9-E575445CCDC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83A74A6C-CB23-0D1E-3283-4D9D8726E53E" name="FACULTY_PERSON_DEPT_FK">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:42 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2A3D79D-80AA-F8E7-EE68-675CE781F3EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CCAB04D-4237-8237-D92E-AEB397A6BF4B" name="FACULTY_PERSON_FK">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:42 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23FC9B63-ED20-D40F-22B9-A55DA202BB57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

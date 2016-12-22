@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FAD2331-2508-3781-2FE8-B7F39F5E7961" schemaObject="9C34062A-1B63-8C45-FCA6-23A996B032CA" name="TRANSCRIPT">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>TRANSCRIPT</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SECTIONNO" id="67DE6436-A217-4DC4-8028-662343917098">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>TRANSCRIPT</sourceObjSchema>
+<sourceObjName>SECTIONNO</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77534CCF-703D-A06E-86DE-CB23A784BB2C" referredColumn="102A51ED-85DC-1EA8-6A4F-2FF7EC7BD9C1"/>
+</associations>
+</Column>
+<Column name="SNO" id="52390DA2-183B-7493-ECDC-E14E405CA57D">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>TRANSCRIPT</sourceObjSchema>
+<sourceObjName>SNO</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B85AF586-AF39-CC01-3B51-E389D5027882" referredColumn="EBF3C4FB-0EDE-EC61-1978-2662EF9D398A"/>
+</associations>
+</Column>
+<Column name="GRADE" id="3725B712-860C-8543-435F-1D15B6DFF2A8">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>TRANSCRIPT</sourceObjSchema>
+<sourceObjName>GRADE</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="972BD271-B534-87A8-006F-EC75702BC4D4" name="TRANSCRIPT_SECTION_FK">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67DE6436-A217-4DC4-8028-662343917098"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23DB2EBD-2B59-AC58-EA07-06C5936BE3BD" name="TRANSCRIPT_STUDENT_FK">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52390DA2-183B-7493-ECDC-E14E405CA57D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

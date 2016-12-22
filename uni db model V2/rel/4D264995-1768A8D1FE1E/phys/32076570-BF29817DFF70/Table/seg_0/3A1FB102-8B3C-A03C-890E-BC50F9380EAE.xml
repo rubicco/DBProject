@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="FBUSER" directorySegmentName="seg_0" id="3A1FB102-8B3C-A03C-890E-BC50F9380EAE">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<schemaObject>9C34062A-1B63-8C45-FCA6-23A996B032CA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A2D43590-0EF5-EC16-75A2-9AF87441B2E5</segment>
+<tableSpace>738C256D-8AAC-3C7E-9EF3-1A0216CCB763</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="E_MAIL" id="1D523C72-3720-5DE1-B1D1-3900A066EB33">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FB_ID" id="E8B337EB-BA35-B32B-F179-873F893954D1">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="FBUSER_PK" id="28A3E459-4196-6F42-08B5-A03D35C61840">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<schemaObject>9C34062A-1B63-8C45-FCA6-23A996B032CA</schemaObject>
+<segment>A4F3FB13-6739-7488-9457-2AA7C98E1321</segment>
+<tableSpace>738C256D-8AAC-3C7E-9EF3-1A0216CCB763</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FBUSER_PERSON_FK" id="671D6A29-1EE3-3999-7EAC-17CE5F9FF000">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FBUSER_PK" id="DF086619-0AC0-4785-6F28-C7B2CEE61540">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<segment>A4F3FB13-6739-7488-9457-2AA7C98E1321</segment>
+<tableSpace>738C256D-8AAC-3C7E-9EF3-1A0216CCB763</tableSpace>
+<existingIndex>28A3E459-4196-6F42-08B5-A03D35C61840</existingIndex>
+<indexSegment>A4F3FB13-6739-7488-9457-2AA7C98E1321</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

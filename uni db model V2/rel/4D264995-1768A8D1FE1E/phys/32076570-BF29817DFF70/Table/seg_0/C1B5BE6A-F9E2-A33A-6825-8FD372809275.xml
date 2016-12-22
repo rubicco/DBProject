@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="LINCOMPANY" directorySegmentName="seg_0" id="C1B5BE6A-F9E2-A33A-6825-8FD372809275">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<schemaObject>9C34062A-1B63-8C45-FCA6-23A996B032CA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A2D43590-0EF5-EC16-75A2-9AF87441B2E5</segment>
+<tableSpace>738C256D-8AAC-3C7E-9EF3-1A0216CCB763</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="COMPANYNAME" id="3110A3D3-81F0-2660-1C92-52AABA38E19E">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="850AA9A0-01CD-E85E-64FE-151440B37BFF">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPANYID" id="E1E0DBD0-6A8A-7F3D-195E-ECD5EDF9E575">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LINCOMPANY_PK" id="390CBBCB-F48C-A2F7-BB06-E34BC2CBFA69">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<schemaObject>9C34062A-1B63-8C45-FCA6-23A996B032CA</schemaObject>
+<segment>A4F3FB13-6739-7488-9457-2AA7C98E1321</segment>
+<tableSpace>738C256D-8AAC-3C7E-9EF3-1A0216CCB763</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LINCOMPANY_PK" id="3265E914-2F57-AB60-78E3-6B5D6F47BC6F">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<segment>A4F3FB13-6739-7488-9457-2AA7C98E1321</segment>
+<tableSpace>738C256D-8AAC-3C7E-9EF3-1A0216CCB763</tableSpace>
+<existingIndex>390CBBCB-F48C-A2F7-BB06-E34BC2CBFA69</existingIndex>
+<indexSegment>A4F3FB13-6739-7488-9457-2AA7C98E1321</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

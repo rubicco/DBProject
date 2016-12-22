@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F401C3CA-49AE-2A68-6A16-C30A9491A93A" schemaObject="9C34062A-1B63-8C45-FCA6-23A996B032CA" name="LINWORKS">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>LINWORKS</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LI_ID" id="AEBC7005-150B-5C97-0A3D-8290DD5B4FFC">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>LINWORKS</sourceObjSchema>
+<sourceObjName>LI_ID</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C82BE737-02E2-69B7-5226-92DE674D0F00" referredColumn="77522E01-72F3-FF85-76CC-1F0EDE33C611"/>
+</associations>
+</Column>
+<Column name="COMPANYID" id="823482CF-B90C-99B4-3192-974E9BD30A28">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>LINWORKS</sourceObjSchema>
+<sourceObjName>COMPANYID</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02A0123C-6FAD-853A-D961-24D19A195506" referredColumn="E1E0DBD0-6A8A-7F3D-195E-ECD5EDF9E575"/>
+</associations>
+</Column>
+<Column name="RECENTLYWORKS" id="649F13B8-07FE-FBEE-4E32-4E86C7EA7594">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>LINWORKS</sourceObjSchema>
+<sourceObjName>RECENTLYWORKS</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B3AF224D-0CC3-B0E7-E7FC-093AAAA9862F" name="LINWORKS_LINCOMPANY">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="823482CF-B90C-99B4-3192-974E9BD30A28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2FBD699-926F-3223-177C-F4E8E67C4580" name="LINWORKS_LINUSER">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEBC7005-150B-5C97-0A3D-8290DD5B4FFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

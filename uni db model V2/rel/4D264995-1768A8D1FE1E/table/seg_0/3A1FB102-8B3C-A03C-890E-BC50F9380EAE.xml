@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A1FB102-8B3C-A03C-890E-BC50F9380EAE" schemaObject="9C34062A-1B63-8C45-FCA6-23A996B032CA" name="FBUSER">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>FBUSER</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FB_ID" id="E8B337EB-BA35-B32B-F179-873F893954D1">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>FBUSER</sourceObjSchema>
+<sourceObjName>FB_ID</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E_MAIL" id="1D523C72-3720-5DE1-B1D1-3900A066EB33">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>FBUSER</sourceObjSchema>
+<sourceObjName>E_MAIL</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6864606B-1AC1-6301-104B-B36A9109331B" referredColumn="CC796796-B1A6-D627-2D5E-0E51104E29F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF086619-0AC0-4785-6F28-C7B2CEE61540" name="FBUSER_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>FBUSER_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8B337EB-BA35-B32B-F179-873F893954D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28A3E459-4196-6F42-08B5-A03D35C61840" schemaObject="9C34062A-1B63-8C45-FCA6-23A996B032CA" name="FBUSER_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>FBUSER_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8B337EB-BA35-B32B-F179-873F893954D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="671D6A29-1EE3-3999-7EAC-17CE5F9FF000" name="FBUSER_PERSON_FK">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D523C72-3720-5DE1-B1D1-3900A066EB33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

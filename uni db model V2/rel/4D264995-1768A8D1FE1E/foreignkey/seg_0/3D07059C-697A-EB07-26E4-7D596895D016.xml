@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3D07059C-697A-EB07-26E4-7D596895D016" containerWithKeyObject="F11E217F-DF87-7DD2-0DF7-0AF09922B113" localFKIndex="E1DD18CB-268E-A158-9C40-38CF4B4ACA41" name="FBPAGEREGISTER_PAGE_FK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>FBPAGEREGISTER_PAGE_FK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E08DD4F3-0610-F44A-1064-45ED72D76683</referredTableID>
+<keyObject>2D0CD3CA-7937-AD9D-A914-D3543DC44639</keyObject>
+<referredKeyID>2D0CD3CA-7937-AD9D-A914-D3543DC44639</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

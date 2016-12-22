@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0A84219-1044-3B8A-B21C-E060DCD4E97A" schemaObject="DA0683A9-E3FE-1670-33B0-8511D4E9EF34" name="DEPARTMENT">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>DEPARTMENT</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPTNO" id="C6BA132A-54D4-F5FD-D506-399CE6810E7C">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>DEPARTMENT</sourceObjSchema>
+<sourceObjName>DEPTNO</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPTNAME" id="1AC47F71-DB22-7680-FADB-86C22CA87171">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>DEPARTMENT</sourceObjSchema>
+<sourceObjName>DEPTNAME</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="18A2A3DA-3F16-7E42-36F0-2E11F757E9A4">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>DEPARTMENT</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUNO" id="676BD50D-00E0-B695-8536-E3947D8444C4">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>DEPARTMENT</sourceObjSchema>
+<sourceObjName>AUNO</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69E5775B-2ECF-BB59-F4F8-7E14570A367A" referredColumn="A38F5E5E-9EC4-2C47-CCA7-6B66E67D1023"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB0322B8-7685-2955-EF84-FCC45F6C4B1A" name="DEPARTMENT_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>DEPARTMENT_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6BA132A-54D4-F5FD-D506-399CE6810E7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9DF9FA7-DCC4-B4EF-991A-BC9A272A118D" schemaObject="DA0683A9-E3FE-1670-33B0-8511D4E9EF34" name="DEPARTMENT_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>DEPARTMENT_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6BA132A-54D4-F5FD-D506-399CE6810E7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1B276D9-AE9A-4B03-6A8E-17EA73464041" name="DEPARTMENT_AU_FK">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="676BD50D-00E0-B695-8536-E3947D8444C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

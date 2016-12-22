@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="uni db model V2" id="5B3BB8C4-90D8-0052-9C36-A3D7A77B60FC" version="3.5">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-20 23:57:53 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5B3BB8C4-90D8-0052-9C36-A3D7A77B60FC</designId>
+</OSDM_Design>

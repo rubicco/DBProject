@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="146D4C2B-9817-DFC0-8806-5ABC0ED166D8" schemaObject="9C34062A-1B63-8C45-FCA6-23A996B032CA" name="LINGROUPPAGEREG">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>LINGROUPPAGEREG</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GROUPPAGENO" id="2AE43449-C40B-E11C-A3FB-5566F340B018">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>LINGROUPPAGEREG</sourceObjSchema>
+<sourceObjName>GROUPPAGENO</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BEA76C0-D968-D207-ABAA-2A8DA26C39FE" referredColumn="C2BF70D8-C579-38D5-C8BE-7600ECB4E9D5"/>
+</associations>
+</Column>
+<Column name="LI_ID" id="4E461EE8-D6C0-7769-F9CB-41DF41F79868">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>LINGROUPPAGEREG</sourceObjSchema>
+<sourceObjName>LI_ID</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB26F48E-4125-DBD3-882A-185877A60D1E" referredColumn="77522E01-72F3-FF85-76CC-1F0EDE33C611"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F9A7E2A-B574-5CBA-7CE0-8B45CBF7AB71" name="LINGROUPPAGEREG_PAGE_FK">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AE43449-C40B-E11C-A3FB-5566F340B018"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFF4900C-21A3-4AB4-6A02-D8E888D1F3F6" name="LINGROUPPAGEREG_USER_FK">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E461EE8-D6C0-7769-F9CB-41DF41F79868"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

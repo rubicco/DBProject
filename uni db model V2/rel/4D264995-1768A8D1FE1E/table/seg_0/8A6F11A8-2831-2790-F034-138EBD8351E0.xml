@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A6F11A8-2831-2790-F034-138EBD8351E0" schemaObject="9C34062A-1B63-8C45-FCA6-23A996B032CA" name="LINGROUPPAGE">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>LINGROUPPAGE</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GROUPPAGENO" id="C2BF70D8-C579-38D5-C8BE-7600ECB4E9D5">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>LINGROUPPAGE</sourceObjSchema>
+<sourceObjName>GROUPPAGENO</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAGE_NAME" id="5466AF94-0BAD-221B-737D-6A9DD3ED8FB5">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>LINGROUPPAGE</sourceObjSchema>
+<sourceObjName>PAGE_NAME</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADMIN_ID" id="556FA7DF-E616-F7B8-B4D0-C530B3D3461D">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>LINGROUPPAGE</sourceObjSchema>
+<sourceObjName>ADMIN_ID</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D750F188-BAB7-29A9-8029-0B281886EAE5" referredColumn="77522E01-72F3-FF85-76CC-1F0EDE33C611"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA4733AF-7A4E-4838-3F1D-EFE1F0E0DB0F" name="LINGROUPPAGE_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>LINGROUPPAGE_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2BF70D8-C579-38D5-C8BE-7600ECB4E9D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A51A631-8A2A-BFBC-0611-76F499B07A48" schemaObject="9C34062A-1B63-8C45-FCA6-23A996B032CA" name="LINGROUPPAGE_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>LINGROUPPAGE_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2BF70D8-C579-38D5-C8BE-7600ECB4E9D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F23A4AE-C4B2-EF6E-0AC2-38D05300D62C" name="LINGROUPPAGE_LINUSER_FK">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="556FA7DF-E616-F7B8-B4D0-C530B3D3461D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

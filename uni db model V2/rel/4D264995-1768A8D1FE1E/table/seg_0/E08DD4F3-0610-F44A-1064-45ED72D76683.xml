@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E08DD4F3-0610-F44A-1064-45ED72D76683" schemaObject="9C34062A-1B63-8C45-FCA6-23A996B032CA" name="FBPAGE">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>FBPAGE</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAGE_NO" id="00C6BE84-5124-579E-023B-7899B430D6B0">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>FBPAGE</sourceObjSchema>
+<sourceObjName>PAGE_NO</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAGE_NAME" id="49EC2CAF-F670-0147-281C-C82B69213FE9">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>FBPAGE</sourceObjSchema>
+<sourceObjName>PAGE_NAME</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADMIN_ID" id="0A08DD61-9C5F-7C2D-8173-20908F602DE7">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>FBPAGE</sourceObjSchema>
+<sourceObjName>ADMIN_ID</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="844A48E2-5F1D-4226-C622-E615937400EF" referredColumn="E8B337EB-BA35-B32B-F179-873F893954D1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D0CD3CA-7937-AD9D-A914-D3543DC44639" name="FBPAGE_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>FBPAGE_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00C6BE84-5124-579E-023B-7899B430D6B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65CF80A3-348A-00AF-009E-74B4E406296F" schemaObject="9C34062A-1B63-8C45-FCA6-23A996B032CA" name="FBPAGE_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>FBPAGE_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00C6BE84-5124-579E-023B-7899B430D6B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADFA2775-DEA7-E72D-CCCA-8BC0B5AC347F" name="FBPAGE_FBUSER_FK">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A08DD61-9C5F-7C2D-8173-20908F602DE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

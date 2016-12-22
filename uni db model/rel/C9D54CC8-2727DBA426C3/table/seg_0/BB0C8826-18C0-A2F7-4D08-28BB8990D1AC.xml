@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB0C8826-18C0-A2F7-4D08-28BB8990D1AC" schemaObject="EAE233BC-DB46-C859-117B-DA6908A87657" name="SECTION">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>SECTION</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SECTIONNO" id="5F883D1D-93FB-406C-5A04-827E42A543F2">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>SECTION</sourceObjSchema>
+<sourceObjName>SECTIONNO</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEM_YEAR" id="B8A40317-3A58-B9B7-E354-9B59CDCB161E">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>SECTION</sourceObjSchema>
+<sourceObjName>SEM_YEAR</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEM_QTR" id="49AAC085-134E-A604-8E01-765397D45D6F">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>SECTION</sourceObjSchema>
+<sourceObjName>SEM_QTR</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COURSENO" id="F0614A84-EE11-C161-F5E2-B80ED945609B">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>SECTION</sourceObjSchema>
+<sourceObjName>COURSENO</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A63B5146-0036-042A-3109-59484F8EA672" referredColumn="CBAB9B82-BF45-66C0-C393-BABEB44456B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6707CE98-B12A-CC9B-F8F3-C50B0A26F7AA" name="SECTION_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>SECTION_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:42 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F883D1D-93FB-406C-5A04-827E42A543F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33403939-777A-BC38-CBDA-2F12CCC4EF4A" schemaObject="EAE233BC-DB46-C859-117B-DA6908A87657" name="SECTION_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>SECTION_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:42 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F883D1D-93FB-406C-5A04-827E42A543F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0767F99-24F4-6BAD-EEDE-1DC63565D7EE" name="SECTION_COURSE_FK">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:42 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0614A84-EE11-C161-F5E2-B80ED945609B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

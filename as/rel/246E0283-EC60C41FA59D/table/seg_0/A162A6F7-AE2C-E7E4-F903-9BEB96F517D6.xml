@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A162A6F7-AE2C-E7E4-F903-9BEB96F517D6" schemaObject="DA0683A9-E3FE-1670-33B0-8511D4E9EF34" name="GRAD_STUDENT">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>GRAD_STUDENT</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GSNO" id="3257B53F-0EE7-7FBE-68D7-EBF331658E9B">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>GRAD_STUDENT</sourceObjSchema>
+<sourceObjName>GSNO</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TCNUMBER" id="6910C9AF-BF8A-2AD2-2337-567DBD4AB7B6">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>GRAD_STUDENT</sourceObjSchema>
+<sourceObjName>TCNUMBER</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96E5BABB-BF7B-BE0F-CEE9-4E25526B8EEE" referredColumn="52CF1A92-CE48-E5AA-2565-0872E7C7109E"/>
+</associations>
+</Column>
+<Column name="DEPTNAME" id="8C410044-7331-104B-9261-68E983C42B0C">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>GRAD_STUDENT</sourceObjSchema>
+<sourceObjName>DEPTNAME</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEGREE" id="93AA32EC-DB98-5AFA-ABDE-FC7C0E2F3D8C">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>GRAD_STUDENT</sourceObjSchema>
+<sourceObjName>DEGREE</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YEAR" id="289E83C8-E238-D261-B4C0-48EC8566AEAB">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>GRAD_STUDENT</sourceObjSchema>
+<sourceObjName>YEAR</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="904F2769-2D34-CE29-AAFB-6C3C78DBD172" name="GRAD_STUDENT_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>GRAD_STUDENT_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3257B53F-0EE7-7FBE-68D7-EBF331658E9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB38348D-B650-201E-2104-BC745C8461E3" schemaObject="DA0683A9-E3FE-1670-33B0-8511D4E9EF34" name="GRAD_STUDENT_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>GRAD_STUDENT_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3257B53F-0EE7-7FBE-68D7-EBF331658E9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1533E836-766C-0303-5016-7A2E59B05E12" name="GRAD_STUDENT_PERSON_FK">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6910C9AF-BF8A-2AD2-2337-567DBD4AB7B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SECTION" directorySegmentName="seg_0" id="BB0C8826-18C0-A2F7-4D08-28BB8990D1AC">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<schemaObject>EAE233BC-DB46-C859-117B-DA6908A87657</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A13BDE2B-2D71-28FC-5719-7305541985DB</segment>
+<tableSpace>5CD08D59-1ECD-52C9-8C86-D9EA680B5427</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SEM_QTR" id="49AAC085-134E-A604-8E01-765397D45D6F">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SECTIONNO" id="5F883D1D-93FB-406C-5A04-827E42A543F2">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEM_YEAR" id="B8A40317-3A58-B9B7-E354-9B59CDCB161E">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COURSENO" id="F0614A84-EE11-C161-F5E2-B80ED945609B">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:41 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SECTION_PK" id="33403939-777A-BC38-CBDA-2F12CCC4EF4A">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:42 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<schemaObject>EAE233BC-DB46-C859-117B-DA6908A87657</schemaObject>
+<segment>4EA37CAB-9CD2-1558-2B8B-23FD43651785</segment>
+<tableSpace>5CD08D59-1ECD-52C9-8C86-D9EA680B5427</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SECTION_COURSE_FK" id="C0767F99-24F4-6BAD-EEDE-1DC63565D7EE">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:42 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SECTION_PK" id="6707CE98-B12A-CC9B-F8F3-C50B0A26F7AA">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:51:42 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<segment>4EA37CAB-9CD2-1558-2B8B-23FD43651785</segment>
+<tableSpace>5CD08D59-1ECD-52C9-8C86-D9EA680B5427</tableSpace>
+<existingIndex>33403939-777A-BC38-CBDA-2F12CCC4EF4A</existingIndex>
+<indexSegment>4EA37CAB-9CD2-1558-2B8B-23FD43651785</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

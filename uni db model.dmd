@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="uni db model" id="0CD0C721-E0B9-95A8-87B3-FA6C83B17385" version="3.5">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 21:37:15 UTC</createdTime>
+<ownerDesignName>uni db model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>0CD0C721-E0B9-95A8-87B3-FA6C83B17385</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8139C71B-47DA-0FB4-A43B-4DC0758A41C8">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="5A08C089-670D-9749-F6FC-5D7F7005287B">
+<designStoragePath>C:\Projects\SQL Developer\DBProject</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B67149B9-373C-8AD1-F640-E5DCE3A107E1">
+<designStoragePath>C:\Projects\SQL Developer\DBProject</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3F59440-9990-8645-6E8D-604EB869A643" schemaObject="9C34062A-1B63-8C45-FCA6-23A996B032CA" name="LINUSER">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>LINUSER</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LI_ID" id="77522E01-72F3-FF85-76CC-1F0EDE33C611">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>LINUSER</sourceObjSchema>
+<sourceObjName>LI_ID</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXP" id="6534274F-A96A-9AA2-06C5-03F187A4A6FB">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>LINUSER</sourceObjSchema>
+<sourceObjName>EXP</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUMMARY" id="797D426B-1FEC-76E3-F98C-C3F48E6C3071">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>LINUSER</sourceObjSchema>
+<sourceObjName>SUMMARY</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="3B3834A8-D616-E022-B42D-F26CD2722D0D">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>LINUSER</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="081D5BDC-07EC-D514-438F-D10BAED459DE" referredColumn="CC796796-B1A6-D627-2D5E-0E51104E29F5"/>
+</associations>
+</Column>
+<Column name="TYPE" id="D90AC412-F456-14EE-402C-61FC9EB311EA">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>LINUSER</sourceObjSchema>
+<sourceObjName>TYPE</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B940A4FA-BE7D-9626-18B7-FCA916B66B57" name="LINUSER_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>LINUSER_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77522E01-72F3-FF85-76CC-1F0EDE33C611"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44C9E6BB-D22A-2D5F-28BF-F0EE7CE21A2E" schemaObject="9C34062A-1B63-8C45-FCA6-23A996B032CA" name="LINUSER_PK">
+<sourceConnName>UNIVERSITY_DB</sourceConnName>
+<sourceObjSchema>UNIVERSITY</sourceObjSchema>
+<sourceObjName>LINUSER_PK</sourceObjName>
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77522E01-72F3-FF85-76CC-1F0EDE33C611"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0A0997F-5EA8-4A10-AEB5-3E7DB11BBD88" name="LINUSER_PERSON_FK">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-21 00:03:24 UTC</createdTime>
+<ownerDesignName>uni db model V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B3834A8-D616-E022-B42D-F26CD2722D0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

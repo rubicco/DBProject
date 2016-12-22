@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PERSON" directorySegmentName="seg_0" id="B50E1604-8832-2F0D-322D-0581A9164231">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<schemaObject>DA0683A9-E3FE-1670-33B0-8511D4E9EF34</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>06027CE5-4FF9-0C47-E2D3-6F2890CD8A61</segment>
+<tableSpace>403EDD4C-7BE1-482A-6E1F-D18C983253AF</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SEX" id="03577698-A08A-300C-4371-8CB98A91ED2E">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FNAME" id="5183E0B0-6166-29C3-14CC-A1C9CD590485">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TCNUMBER" id="52CF1A92-CE48-E5AA-2565-0872E7C7109E">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LNAME" id="6B16F759-BC0E-CDE5-EE43-298551B02473">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="A1AF1E1C-B849-3392-E22B-6BE4C3BBA6E7">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDRESS" id="E1A914C3-C760-E03C-CAFF-3643CD62A32A">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BDATE" id="F83CCC77-D1BD-622A-6637-37A72A6D5F0C">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PERSON_PK" id="9C30A0F4-49C9-94E5-376B-EC08B60ABF0D">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<schemaObject>DA0683A9-E3FE-1670-33B0-8511D4E9EF34</schemaObject>
+<segment>2B9783FB-298B-94D0-0194-E6984A975A22</segment>
+<tableSpace>403EDD4C-7BE1-482A-6E1F-D18C983253AF</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PERSON_PK" id="C969262B-D735-A749-35D9-852DF7CEB45D">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<segment>2B9783FB-298B-94D0-0194-E6984A975A22</segment>
+<tableSpace>403EDD4C-7BE1-482A-6E1F-D18C983253AF</tableSpace>
+<existingIndex>9C30A0F4-49C9-94E5-376B-EC08B60ABF0D</existingIndex>
+<indexSegment>2B9783FB-298B-94D0-0194-E6984A975A22</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

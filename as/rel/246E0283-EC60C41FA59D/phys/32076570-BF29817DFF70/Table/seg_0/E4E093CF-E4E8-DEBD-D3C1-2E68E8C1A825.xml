@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="COURSE" directorySegmentName="seg_0" id="E4E093CF-E4E8-DEBD-D3C1-2E68E8C1A825">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<schemaObject>DA0683A9-E3FE-1670-33B0-8511D4E9EF34</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>06027CE5-4FF9-0C47-E2D3-6F2890CD8A61</segment>
+<tableSpace>403EDD4C-7BE1-482A-6E1F-D18C983253AF</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SEMESTERNO" id="07CD36A7-9065-F410-48D1-08DFD9AC6F77">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ECTS" id="33D0F84C-A1BB-7FB4-AD69-A80F5C69123A">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QTR" id="4A4C4DBC-B15F-4DA1-4074-38B63F32F27B">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPTNO" id="4E721419-0F1C-CCD1-CF99-60AC62D3E397">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COURSENAME" id="F02E54BB-A924-8F80-AAC5-BF7BA4FD2E21">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COURSENO" id="F260B314-F6C0-E122-5D54-0531F0380C86">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLASS" id="F338D802-8CE2-5554-E37E-1AF451FF5888">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COURSE_PK" id="A0714355-2A97-6705-22BC-12B85ABF0B54">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<schemaObject>DA0683A9-E3FE-1670-33B0-8511D4E9EF34</schemaObject>
+<segment>2B9783FB-298B-94D0-0194-E6984A975A22</segment>
+<tableSpace>403EDD4C-7BE1-482A-6E1F-D18C983253AF</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COURSE_DEPT_FK" id="867AFB46-7D98-F982-3499-A5FF1BEF5E2D">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COURSE_PK" id="72F28F00-2F15-0445-AA57-9C19599D6637">
+<createdBy>mimKemal</createdBy>
+<createdTime>2016-12-19 17:38:11 UTC</createdTime>
+<ownerDesignName>as</ownerDesignName>
+<segment>2B9783FB-298B-94D0-0194-E6984A975A22</segment>
+<tableSpace>403EDD4C-7BE1-482A-6E1F-D18C983253AF</tableSpace>
+<existingIndex>A0714355-2A97-6705-22BC-12B85ABF0B54</existingIndex>
+<indexSegment>2B9783FB-298B-94D0-0194-E6984A975A22</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
